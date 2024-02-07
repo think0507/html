@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>transition 예제</title>
+    <style>
+        .box{
+            width :100px;
+            height :100px;
+            background-color: red;
+            margin :50px;
+
+            transition-property: background-color, border-radius;
+
+            transition-duration: 0.5s, 2s;
+            transition-delay : 0s, 0.5s;
+        }
+        .box:hover{
+            border-radius: 50%;
+            background-color: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

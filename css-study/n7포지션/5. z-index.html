@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>z-index예제</title>
+    <style>
+        .box, .ex2-box{
+            width :200px;
+            height: 200px;
+            position : absolute;
+            border : 2px solid black;
+        }
+        .box1{
+            background-color: coral;
+            z-index: 1;
+        }
+        .box2{
+            background-color: greenyellow;
+            z-index: 2;
+            margin : 100px 100px;
+        }
+        .box3{
+            background-color: cornflowerblue;
+            z-index: 3;
+            margin : 200px 200px;
+        }
+        /*.ex2-box{*/
+        /*    top :450px;*/
+        /*    width :150px;*/
+
+        /*}*/
+        /*.ex2-box:nth-child(2n){*/
+        /*    margin-top:50px;*/
+        /*}*/
+        /*.ex2-box3{*/
+        /*    position : relative;*/
+        /*}*/
+        /*.ex2-box4{*/
+        /*    position : relative;*/
+        /*}*/
+        /*.container2{*/
+        /*    width:80%;*/
+        /*    margin:50px auto;*/
+        /*    position : absolute;*/
+        /*    display:flex;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box box1">박스 1</div>
+    <div class="box box2">박스 2</div>
+    <div class="box box3">박스 3</div>
+</div>
+<!--<div class="container2">-->
+<!--    <div class="ex2-box ex2-box1">예제2 박스1</div>-->
+<!--    <div class="ex2-box ex2-box2">예제2 박스2</div>-->
+<!--    <div class="ex2-box ex2-box3">예제2 박스3</div>-->
+<!--    <div class="ex2-box ex2-box4">예제2 박스4</div>-->
+<!--    <div class="ex2-box ex2-box5">예제2 박스5</div>-->
+<!--</div>-->
+</body>
+</html>
