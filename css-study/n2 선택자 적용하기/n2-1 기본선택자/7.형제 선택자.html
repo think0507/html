@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>형제 선택자</title>
+
+    <style>
+/*<!--  인접한거-->*/
+        span+li{
+            text-decoration: underline;
+        }
+        /*같은 레이어에 있기만 하면, but span이 나오고나서. 즉 후속된 형제 선택자가 적절함*/
+        span~li{
+            color:cornflowerblue;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+<div>
+    <ul>
+        <span>나는 바보인가에 대하여...</span>
+        <li>나는 바보다</li>
+        <li>나는 바보가 아니다</li>
+        <li>나는 바보다</li>
+        <li>나는 바보가 아니다</li>
+    </ul>
+</div>
+<nav>
+    <ol>
+        <li>걍 나는 바보다</li>
+        <li >이쯤되면 인정하자</li>
+        <li>백동렬 화이팅!</li>
+
+    </ol>
+</nav>
+</body>
+</html>
