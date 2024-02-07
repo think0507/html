@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animation-fill-mode 예제</title>
+    <style>
+        .box{
+            width:100px;
+            height:100px;
+            background-color: greenyellow;
+
+            animation: moving-around 2s ease-in-out 0s;
+            /*애니메이션의 결과가 되돌아 오지 않게 할때 fowards*/
+            animation-fill-mode: forwards;
+
+            /* 시작시점의 상태와 종료시점의 상태를 요소 자체의 성격으로 덮어쓰기 both */
+            animation-fill-mode: both;
+        }
+
+        @keyframes moving-around {
+            0%{
+                transform:translate(0,0);
+                background-color: navy;
+            }
+            100%{
+                transform:translate(300px ,0);
+                background-color: red;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>
+</body>
+</html>
