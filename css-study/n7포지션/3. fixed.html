@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fixed예제</title>
+    <style>
+        body{
+            height : 3000px;
+        }
+        header{
+            border-bottom:2px solid darkgray;
+            box-sizing: border-box;
+            display:flex;
+            justify-content: space-between;
+            top:0;
+            position : fixed;
+            width : 100%;
+        }
+        header > h1{
+            margin : 20px 30px;
+            padding :0;
+            font-size:40px;
+
+        }
+        header ul{
+            margin : 20px 30px;
+            padding :0;
+            font-size:40px;
+            list-style: none;
+            display :flex;
+        }
+        header li{
+            margin-right: 30px;
+        }
+
+        .to-top{
+            font-size: 30px;
+            position : fixed;
+            right : 30px;
+            bottom :20px;
+        }
+        .header-position-holder{
+            height : 80px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            My Home
+        </h1>
+        <nav>
+            <ul>
+                <li>소개</li>
+                <li>게시판</li>
+                <li>자료실</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="header-position-holder">
+        <span>sdfsdfasdfasdfhashfoaisrgn;aoisnfaoisnvfasidjfa;slkdvna;lsdkjfaskdlj;faskdjsa;dlkj</span>
+        <span>sdfsdfasdfasdfhashfoaisrgn;aoisnfaoisnvfasidjfa;slkdvna;lsdkjfaskdlj;faskdjsa;dlkj</span>
+        <span>sdfsdfasdfasdfhashfoaisrgn;aoisnfaoisnvfasidjfa;slkdvna;lsdkjfaskdlj;faskdjsa;dlkj</span>
+        <span>sdfsdfasdfasdfhashfoaisrgn;aoisnfaoisnvfasidjfa;slkdvna;lsdkjfaskdlj;faskdjsa;dlkj</span>
+        <span>sdfsdfasdfasdfhashfoaisrgn;aoisnfaoisnvfasidjfa;slkdvna;lsdkjfaskdlj;faskdjsa;dlkj</span>
+        <span>sdfsdfasdfasdfhashfoaisrgn;aoisnfaoisnvfasidjfa;slkdvna;lsdkjfaskdlj;faskdjsa;dlkj</span>
+        <span>sdfsdfasdfasdfhashfoaisrgn;aoisnfaoisnvfasidjfa;slkdvna;lsdkjfaskdlj;faskdjsa;dlkj</span>
+        <span>sdfsdfasdfasdfhashfoaisrgn;aoisnfaoisnvfasidjfa;slkdvna;lsdkjfaskdlj;faskdjsa;dlkj</span>
+        <span>sdfsdfasdfasdfhashfoaisrgn;aoisnfaoisnvfasidjfa;slkdvna;lsdkjfaskdlj;faskdjsa;dlkj</span>
+    </div>
+
+<div class="to-top">
+    <a href="#">맨위로이동</a>
+</div>
+
+</body>
+</html>
