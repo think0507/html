@@ -1,0 +1,58 @@
+/* pc일때 */
+@media screen and (min-width:900px){
+    html{
+        background-color: skyblue;
+    }
+    .panel{
+        margin : 20px;
+        border-radius: 50px;
+        background-color : white;
+    }
+    .pricing-table{
+        display :flex;
+    }
+    .pricing-img{
+        width : 50%;
+        height : 50%;
+    }
+    .pricing-plan{
+        margin : 2%;
+        text-align: center;
+
+    }
+    h2{
+        color : gray;
+    }
+    .pricing-features-item{
+        color : blue;
+        list-style-type : none;
+        border-bottom : 1px solid gray;
+        border-top : 1px solid gray;
+    }
+    .pricing-price{
+        font-size : 50px;
+        color : royalblue;
+        font-weight : bold;
+    }
+    .pricing-button {
+
+        padding :20px;
+        border-radius: 10px;
+        border : 2px solid lightblue;
+    }
+    .pricing-button:hover{
+        background-color: skyblue;
+        color : white;
+    }
+
+
+}
+
+
+
+
+
+/* 모바일 일때 */
+@media screen and (max-width:899px){
+
+}
